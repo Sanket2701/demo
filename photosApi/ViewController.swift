@@ -27,7 +27,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         self.view.addSubview(nextButton!)
         
-        // just for timepass
         textFieldNew = UITextField(frame: CGRect(x: 50, y: 200, width: 300, height: 40))
         textFieldNew!.font = UIFont.boldSystemFont(ofSize: 16.0)
         textFieldNew!.delegate = self
